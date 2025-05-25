@@ -1,0 +1,11 @@
+name: Placeholder Workflow
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  say-hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Greeting
+        run: echo "hi"
